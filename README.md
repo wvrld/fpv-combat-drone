@@ -65,7 +65,7 @@ According to the wiring diagram on the official website of Speedy Bee, the Video
 
 Always double-check all the pins when connecting any peripheral device to the flight controller because they may vary from device to device. For the VTX, we use red (1) and black (2) wires, as well as yellow (5) and green (6). The internal red (3) and black (4) wires should not be used. I have isolated them. These may be used to connect to the video camera directly, but we will be using the FC to connect with the camera through that.
 
-Video-camera Caddx Ratel 2 12000 TVL connects to the flight controller using 5V, G, and CAM pins as shown on the picture above. Red (1) to 5V, Black (2) to G, and Yellow (3) to CAM.
+Video-camera Caddx Ratel 2 12000 TVL connects to the flight controller using 5V, G, and CAM pins. Red (1) to 5V, Black (2) to G, and Yellow (3) to CAM.
 
 After soldering all the necessary connections, you can proceed to connect the FPV system either to your computer or directly to the battery for testing. If there is no smoke, congratulations, you have completed the work correctly. From this point, you can even turn on your FPV glasses and search for the channel to search your FPV drone. It should already be operational by this point if UART1 is configured correctly. 
 
@@ -124,7 +124,7 @@ Please note that when setting up the RadioMaster TX12, choose the CRSF protocol,
 
 Adding an ‘ARM’ mode in the ‘Modes’ section allows you to control when the drone is armed or disarmed. To set this up, you need to bind your RadioMaster TX12 Radio Controller with the drone during configuration. Then, click on ‘Add Link’ next to the ‘ARM’ command, and toggle the switch on/off on the Radio Controller that you want to use for ARM/DISARM. This action configures it accordingly.
 
-Also, using the yellow scroll, as shown on the picture above, you can specify the tumbler state in which the drone will be armed. And don’t forget to save changes in the right bottom corner of the configuration page.
+Also, using the yellow scroll, you can specify the tumbler state in which the drone will be armed. And don’t forget to save changes in the right bottom corner of the configuration page.
 
 The ‘Motors’ section has tools for testing and resolving issues with the motors on your drone. It enables you to individually activate each motor to confirm their proper functionality and configuration.
 For our setup, we should select the following options:
